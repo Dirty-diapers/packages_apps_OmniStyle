@@ -48,47 +48,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
-        <activity
-            android:name=".nature"
-            android:label="Nature" >
-            <intent-filter>
-                <action android:name="org.omnirom.DaylightHeaderPack1" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-
-        <activity
-            android:name=".poly"
-            android:label="Poly" >
-            <intent-filter>
-                <action android:name="org.omnirom.DaylightHeaderPack1" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-
-        <activity
-            android:name=".naturerandom"
-            android:label="Nature (random)" >
-            <intent-filter>
-                <action android:name="org.omnirom.DaylightHeaderPack1" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-
-        <activity
-            android:name=".wavvy"
-            android:label="Wavvy by Travis Hall" >
-            <intent-filter>
-                <action android:name="org.omnirom.DaylightHeaderPack1" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        
+       
         <activity
             android:name=".reaper"
             android:label="Reaper Crew" >
@@ -138,6 +98,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        
+        <activity
+            android:name=".aarondark"
+            android:label="Aaron Dark" >
+            <intent-filter>
+                <action android:name="org.omnirom.DaylightHeaderPack1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>        
         
         <activity
             android:name=".whitey"
